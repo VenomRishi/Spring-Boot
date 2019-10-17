@@ -1,4 +1,4 @@
-package com.bridgelabz.courseapidata;
+package com.bridgelabz.courseapidata.topic;
 
 import java.util.List;
 

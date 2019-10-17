@@ -1,4 +1,4 @@
-package com.bridgelabz.courseapidata;
+package com.bridgelabz.courseapidata.topic;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

@@ -1,3 +1,12 @@
+/******************************************************************************
+ *  Purpose: Class is implemented for creating the POJO class
+ *
+ *  @author  Rishikesh Mhatre
+ *  @version 1.0
+ *  @since   16-10-2019
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.springbootstarter.topic;
 
 

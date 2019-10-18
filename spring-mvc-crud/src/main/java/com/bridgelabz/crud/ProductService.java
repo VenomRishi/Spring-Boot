@@ -1,3 +1,13 @@
+/******************************************************************************
+ *  Purpose: Class is implemented for creating the POJO class
+ *  		 @Entity will tell the spring framework that this is POJO class
+ *
+ *  @author  Rishikesh Mhatre
+ *  @version 1.0
+ *  @since   17-10-2019
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.crud;
 
 import java.util.List;

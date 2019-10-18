@@ -1,3 +1,14 @@
+/******************************************************************************
+ *  Purpose: Class is implemented for handling the request from the user
+ *  		 @Controller helps to control the request comes from user end
+ *  		 this project implemented Spring MVC pattern
+ *
+ *  @author  Rishikesh Mhatre
+ *  @version 1.0
+ *  @since   18-10-2019
+ *
+ ******************************************************************************/
+
 package com.bridgelabz.crud;
 
 import java.util.List;
@@ -43,9 +54,9 @@ public class AppController {
 		mav.addObject("product", product);
 		return mav;
 	}
-	
+
 	@RequestMapping("/delete/{id}")
-	public String deleteProduct(@PathVariable(name="id")Long id) {
+	public String deleteProduct(@PathVariable(name = "id") Long id) {
 		productService.delete(id);
 		return "redirect:/";
 	}

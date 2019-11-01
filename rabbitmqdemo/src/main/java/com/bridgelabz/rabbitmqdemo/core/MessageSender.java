@@ -1,4 +1,4 @@
-package com.bridgelabz.rabbitmqdemo;
+package com.bridgelabz.rabbitmqdemo.core;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;

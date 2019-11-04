@@ -13,4 +13,5 @@ public class MessageReceiver {
 	public CountDownLatch getCountDownLatch() {
 		return countDownLatch;
 	}
+	
 }

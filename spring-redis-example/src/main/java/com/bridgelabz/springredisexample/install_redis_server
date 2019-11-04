@@ -1,0 +1,12 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install redis-server
+sudo systemctl enable redis-server.service
+sudo vim /etc/redis/redis.conf
+maxmemory 256mb
+maxmemory-policy allkeys-lru
+sudo systemctl restart redis-server.service
+sudo systemctl status redis
+sudo systemctl disable redis
+redis-cli
+ping

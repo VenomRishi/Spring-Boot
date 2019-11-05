@@ -24,7 +24,6 @@ public class SpringRedisExampleApplication {
 	}
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(SpringRedisExampleApplication.class, args);
 	}
 
